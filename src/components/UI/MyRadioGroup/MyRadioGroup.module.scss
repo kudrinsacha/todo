@@ -1,0 +1,14 @@
+.radioGroup {
+  @apply flex text-base text-nowrap gap-2;
+  .radioGroupeElem {
+    label {
+      @apply cursor-pointer border border-transparent p-2 rounded-xl transition-all hover:border-blue-400;
+    }
+    input {
+      @apply w-0 h-0;
+    }
+    input:checked + label {
+      @apply border-blue-500;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.todo {
+  @apply flex flex-col gap-4;
+  .todoSection {
+    @apply flex gap-4 items-baseline px-4;
+    .todoCheck {
+      @apply hover:cursor-pointer w-6 h-6;
+    }
+    .todoInput {
+      @apply p-2 rounded-xl;
+    }
+    .todoTitle {
+      @apply text-2xl text-nowrap flex items-center gap-4 cursor-pointer;
+    }
+    .todoBtn {
+      @apply border border-blue-600 p-2 min-w-20 rounded-xl hover:bg-blue-600 transition-colors disabled:border-gray-500 hover:disabled:bg-inherit;
+    }
+  }
+}

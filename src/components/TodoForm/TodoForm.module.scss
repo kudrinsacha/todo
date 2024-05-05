@@ -1,0 +1,9 @@
+.todoAdd {
+  @apply flex gap-4;
+  .todoInput {
+    @apply flex-grow p-2 rounded-xl;
+  }
+  .todoBtn {
+    @apply border border-blue-600 p-2 min-w-20 rounded-xl hover:bg-blue-600 transition-colors disabled:border-gray-500 hover:disabled:bg-inherit;
+  }
+}

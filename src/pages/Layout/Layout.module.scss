@@ -1,0 +1,6 @@
+.layout {
+  @apply flex flex-col gap-4;
+}
+.header {
+  @apply text-4xl font-bold flex gap-4 justify-center;
+}
