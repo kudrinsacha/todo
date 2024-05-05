@@ -9,7 +9,7 @@ export const App = () => {
   return (
     <div className="app">
       <Routes>
-        <Route path="/todo" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="todolist" element={<Todo />} />
           <Route path="*" element={<NotFound />} />

@@ -11,5 +11,5 @@ export default defineConfig({
       '@': path.resolve(path.dirname(fileURLToPath(import.meta.url)), 'src'),
     },
   },
-  base: '/todo',
+  base: '/todo/',
 });

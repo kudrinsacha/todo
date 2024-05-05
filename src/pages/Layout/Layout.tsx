@@ -6,7 +6,7 @@ export const Layout = () => {
   return (
     <div className={styles.layout}>
       <div className={styles.header}>
-        <Link to="/todo">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="todolist">TodoList</Link>
       </div>
       <div>
