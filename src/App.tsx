@@ -1,8 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
+
 import { Layout } from '@/pages/Layout/Layout';
-import { Todo } from '@/pages/Todo/Todo';
 import { Home } from '@/pages/Home/Home';
+import { Todo } from '@/pages/Todo/Todo';
 import { NotFound } from '@/pages/NotFound/NotFound';
+
 import './App.scss';
 
 export const App = () => {
