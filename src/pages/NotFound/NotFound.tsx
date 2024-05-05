@@ -8,7 +8,7 @@ export const NotFound = () => {
       <div>Oops !</div>
       <div>
         Page not found, go to{' '}
-        <Link className={styles.link} to="/todo">
+        <Link className={styles.link} to="/">
           Home
         </Link>
       </div>
